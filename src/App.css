@@ -1,0 +1,28 @@
+.box {
+  width: 500px;
+  height: 400px;
+  background-color: aquamarine;
+  border-radius: 5%;
+  box-shadow:2px 2px 30px aqua;
+}
+
+.scoreContain {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.randomCircle {
+  width: 10px;
+  aspect-ratio: 1;
+  padding-inline: 20px;
+  padding-block: 2px;
+  border: none;
+  border-radius: 50%;
+  background-color: burlywood;
+}
+
+.gameover {
+  font-size: x-large;
+  color: lightsalmon
+}
